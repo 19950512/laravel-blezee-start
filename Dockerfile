@@ -20,9 +20,6 @@ WORKDIR /var/www/html/src
 # Copiar o script de inicialização
 COPY ./src/docker-entrypoint.sh /usr/local/bin/docker-entrypoint.sh
 
-# Copiar a configuração do supervisord
-COPY ./src/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
-
 # Permissão para o script de inicialização
 RUN chmod +x /usr/local/bin/docker-entrypoint.sh
 

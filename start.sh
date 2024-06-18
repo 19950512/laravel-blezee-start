@@ -15,10 +15,9 @@ if [ "$(ls -A ./src)" ]; then
     rm -f ./src/.docker-project-created
 fi
 
-echo "adicionando o supervisord e docker-entrypoint"
+echo "adicionando o docker-entrypoint"
 
 cp docker-entrypoint.sh ./src
-cp supervisord.conf ./src
 
 sudo docker-compose down && sudo docker-compose up --build -d
 
