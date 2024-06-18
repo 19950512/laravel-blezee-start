@@ -1,4 +1,4 @@
-# Hello World com Laravel Breeze
+# Hello World com Laravel Breeze + docker
 
 ## Required
 - docker-compose instalado
