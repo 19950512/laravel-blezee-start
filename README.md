@@ -4,10 +4,20 @@
 - docker-compose instalado
 
 ## Usage
+
 ### Windows
-```cmd
-./start.ps1
+
+Habilite execuções com Powershell
+- Abrir o PowerShell como administrador
+- Definir a política de execução
+```powershell
+  Set-ExecutionPolicy RemoteSigned
 ```
+```Powershell
+  ./start.ps1
+```
+
+__________________________________________
 
 ### Linux
 ```bash
