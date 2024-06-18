@@ -1,0 +1,1 @@
+# execute o ./start.sh
